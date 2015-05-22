@@ -40,8 +40,9 @@ public class HelloCollision extends SimpleApplication implements ActionListener
 
   public static void main(String[] args)
   {
-    HelloCollision app = new HelloCollision();
-    app.start();
+        System.gc();
+        HelloCollision app = new HelloCollision();
+        app.start();
   }
 
   public void simpleInitApp()
